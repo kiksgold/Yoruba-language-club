@@ -8,4 +8,34 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
+    color: #3a3a3a;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    color: #0d2b17;
+}
+
+#logo {
+    float: left;
+    font-size: 200%;
+}
+
+
+/* navigation links */
+#menu {
+    font-size: 100%;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+menu a {
+    text-decoration: none;
+    color: red;
 }
