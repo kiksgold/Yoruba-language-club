@@ -52,5 +52,78 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+/* split the section screen in half */
 
+.main-content {
+    display: flex;
+    width: 100%;
+}
 
+#col-1 {
+    flex: 1;
+    height: 600px;
+   background-color: yellow;
+}
+
+#col-2 {
+    background-color: orange;
+    flex: 1;
+    height: 600px; 
+    padding-top: 10%;
+    
+}
+
+#main-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/Main_image.jpeg');
+}
+
+div h2 {
+    text-align: center;
+}
+
+h2 ~ p {
+    text-align: center;
+    letter-spacing: none;
+}
+
+.main-content, .col-2 {
+    color: red;
+}
+
+.introduction {
+    background-color: lightblue;
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    font-size: 200%;
+    height: 300px;
+}
+
+.introduction p {
+    color: red;
+    text-align: center;
+    padding: 5%;
+}
+
+/* Footer */
+
+footer{
+    height: 150px;
+}
+
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
