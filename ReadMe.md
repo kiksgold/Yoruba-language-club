@@ -16,9 +16,11 @@ This project is focused on on a website that teaches kids between the ages of 3-
 
 ## UX
 ### Content Strategy
-user-friendly
-stand-out design with beautiful colors
-easy to use navigations
+<ul>
+<li> user-friendly
+<li> stand-out design with beautiful colors
+<li> easy to use navigations
+</ul>
 
 ### Target Audience:
 Our website is targeted at young parents, guardians who would like their kids to learn the yoruba language.
@@ -48,39 +50,18 @@ Our website is targeted at young parents, guardians who would like their kids to
 <li> The About us
     <ul> 
     <li> The About us section gives details about what the club offers, their members and the club's schedule.
-    <li> This section shows the user the important information they need to know about the
+    <li> This section shows the user the important information they need to know about the club.
+    </ul>
 <li> The Sign up Form
+    <ul>
+    <li> it allows users to enroll and join our club
+    </ul>
 </ul>
 
-
-
-## Testing
-
-The real user experience walk through
-Potential parents, guardian or schools are able to navigate easily on our page.
-they are able to learn about us and how to join our club
-parents would know what to expect in our language club by stating what we offer and our schedule
-Overall, we would like to support parents who don't understand the language but would love their kids to learn through our social media links.
 
 ## Wireframes
 
 
-## Features:
-User-friendly
-Mobile friendly
-Simplicity
-Social Media Integrations (Facebook, Instagram, Twitter and Youtube) allows users to see who we are and what we do
-Sign-up Page: allows the users to enrol and join our club
-About us: allows users to learn more about our offerings and schedule.
 
-### Feature for the future:
-Live chat: to set up a chat box in order to connect with our users in real time on any inquiries.
-Blog: link to our blog where we can share tips on learning a language.
 
-## Technology Used
-Balsamiq Wireframes: this was used to originate the idea, the mainframes for this project to have a better picture of the end project.
-HTML: we used this to build all the webpage for this website.
-CSS: this was used to style our various pages.
-Gitpod: is an online IDE for GitHub and GitLab that launches ready-to-code dev environments for any project with a single click. www.gitpod.io www.gitpod.io
-Github: provides hosting for software development version control using Git. www.github.com
 
