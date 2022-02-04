@@ -52,7 +52,7 @@ Our website is targeted at young parents, guardians who would like their kids to
 <li> The Sign up Form
 </ul>
 
-<p>Our language club is open to kids <br> between the ages of 3 to 15. <br> Come and learn to speak and write!</p>
+
 
 ## Testing
 
