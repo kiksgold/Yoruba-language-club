@@ -31,11 +31,11 @@ h1, h2 {
 
 #menu, #logo {
     line-height: 75px;
-}
+}  
 
 #menu li {
-    float: right;
-    list-style-type: none;
+    float: right;  
+    list-style-type: none; 
     margin-right: 30px;
 }
 
@@ -52,45 +52,71 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* split the section screen in half */
-
-.main-content {
-    display: flex;
-    width: 100%;
-}
-
-#col-1 {
-    flex: 1;
-    height: 600px;
-   background-color: yellow;
-}
-
-#col-2 {
-    background-color: orange;
-    flex: 1;
-    height: 600px; 
-    padding-top: 10%;
-    
-}
+/* Main image and cover text */
 
 #main-image {
+    padding-top: 10%;
     height: 600px;
     width: 100%;
-    background: url('../images/Main_image.jpeg');
+    background: url('../images/main_image.jpeg') no-repeat; 
+    background-position: center;
 }
 
-div h2 {
+#main-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text, #cover-text p {
+    color: #ffffff;
     text-align: center;
 }
 
-h2 ~ p {
+#cover-text {
+    width: 350px;
+    height: 100px;
+
+    background-color: rgb(136, 136, 17, .7);
+
+    bottom: 150px;
+    left: 150px;
+
+    position: absolute;
+
+    font-size: 130%;
+    letter-spacing: 2px;
+    font-family: Oswald;
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10px; 
+
     text-align: center;
-    letter-spacing: none;
+    /* word-wrap: normal; */
+
+    border-radius: 75%; 
+    border-style:double;
+
 }
 
-.main-content, .col-2 {
-    color: red;
-}
+/* Media queries */
+
+@media screen and (max-width: 1800px) {
+    #main-outer {
+        float: center;
+    }
+    .center {
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+} 
+
+
 
 .introduction {
     background-color: lightblue;
@@ -119,11 +145,30 @@ footer{
 
 .social-networks li{
     display: inline;
-}
+} 
 
 .social-networks i{
     font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
+    margin: 5%;
+    padding: 0.5%;
+}
+
+.fa-facebook {
+    background-color: #3B5998;
+    color: white;
+}
+
+.fa-twitter-square {
+    background-color: #55ACEE;
+    color: white;
+}
+
+.fa-youtube-square {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
 }
