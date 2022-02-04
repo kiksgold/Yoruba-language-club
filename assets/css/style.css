@@ -191,67 +191,47 @@ footer{
 }
 
 .signup-form {
-    margin: 150px 10% 0 0; 
+    margin: 150px 0 0 0; 
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 150px;
+    max-width: 200px;
     position: absolute;
     right: 10%;
-    
-}
-
-
-/* .form-section {
-    clear: left;
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-}
-
-.signup-form {
-    margin: 150px 10% 0 0;
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
     padding: 30px;
 }
 
 .signup-form > h2 {
-    color: #fafafa;
+    color: rgb(3, 3, 31);
     margin-bottom: 20px;
 }
 
 .text-input {
-    background: transparent;
-    color: #fafafa;
+    /* background: transparent; */
+    color: rgb(3, 3, 31);
     width: 100%;
     height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
+    margin: 5px 10px 5px 0;
+    font-weight: 600px;
+    
 }
 
 .text-input:hover {
     border-color: #f16c6b;
 }
 
-.join-button {
+.submit {
     margin-top: 20px;
-    border-radius: 2px;
+    border-radius: 10px;
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: green;
     color: #fafafa;
     display: block;
 }
 
-.join-button:hover {
+.submit:hover {
     background-color: #fafafa;
-    color: #f16c6b;
-} */
-
-
+    color: green;
+    font-size: 100%;
+}
