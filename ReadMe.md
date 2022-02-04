@@ -13,7 +13,13 @@ This project is focused on on a website that teaches kids between the ages of 3-
 <li> to be accessible to our target audience in their various locations.
 </ul>
 
-## UX
+## Wireframes
+![Image Here](./docs/wireframes/homepage.png)
+![Image Here](./docs/wireframes/aboutus.png)
+![Image Here](./docs/wireframes/signup.png)
+![Image Here](./docs/wireframes/mobile_home.png)
+![Image Here](./docs/wireframes/mobile_aboutus.png)
+![Image Here](./docs/wireframes/mobile_signup.png)
 ### Content Strategy
 <ul>
 <li> user-friendly
