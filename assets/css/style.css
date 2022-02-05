@@ -108,23 +108,9 @@ nav {
 
 }
 
-/* Media queries */
+/* brief intro with the paragraph */
 
-@media screen and (max-width: 1800px) {
-    #main-outer {
-        float: center;
-    }
-    .center {
-        display: block;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-} 
-
-
-
-.introduction {
+.brief-intro {
     background-color: lightblue;
     text-align: center;
     font-family: Oswald, sans-serif;
@@ -132,55 +118,15 @@ nav {
     height: 300px;
 }
 
-.introduction p {
+.brief-intro p {
     color: red;
     text-align: center;
     padding: 5%;
 }
 
-/* Footer */
-
-footer{
-    height: 150px;
-}
-
-.social-networks{
-    text-align: center;
-
-}
-
-.social-networks li{
-    display: inline;
-} 
-
-.social-networks i{
-    font-size: 160%;
-    margin: 5%;
-    padding: 0.5%;
-}
-
-.fa-facebook {
-    background-color: #3B5998;
-    color: white;
-}
-
-.fa-twitter-square {
-    background-color: #55ACEE;
-    color: white;
-}
-
-.fa-youtube-square {
-    background: #bb0000;
-    color: white;
-}
-
-.fa-instagram {
-    background: #125688;
-    color: white;
-}
 
 
-/* Form */
+/* Sign up page */
 
 .form-section {
     clear: left;
@@ -234,4 +180,99 @@ footer{
     background-color: #fafafa;
     color: green;
     font-size: 100%;
+}
+
+
+
+/* Footer */
+
+footer{
+    height: 150px;
+}
+
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline;
+} 
+
+.social-networks i{
+    font-size: 160%;
+    margin: 5%;
+    padding: 0.5%;
+}
+
+.fa-facebook {
+    background-color: #3B5998;
+    color: white;
+}
+
+.fa-twitter-square {
+    background-color: #55ACEE;
+    color: white;
+}
+
+.fa-youtube-square {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+
+/* About Us Pages */
+
+#aboutus-image {
+    padding-top: 10%;
+    height: 600px;
+    width: 100%;
+    background: url('../images/aboutus.jpeg') no-repeat; 
+    background-position: center;
+    background-size: cover;
+}
+
+#aboutus {
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries */
+
+@media screen and (max-width: 1800px) {
+    #main-outer {
+        float: center;
+    }
+    .center {
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
