@@ -354,28 +354,16 @@ footer{
     #our-offer {
         height: 600px;
         background-color: #d6f3e0;
-        /* padding: 2%  */  
     }
 
     #offer {
         margin-left: 10%;
-        /* float: left;
-        padding-top: 20px;
-        width: 35%;
-        
-        line-height: 25px;  */
     }
 
     #schedule {
         float:right;
         margin-right: 5%;
-        /* float:right;
-        padding-top: 20px;
-        margin-right: 25%;
-        line-height: 25px; */
     }
-   
-
 
 }
 
@@ -400,5 +388,15 @@ footer{
     .brief-intro p {
         text-align: center;
         /* padding: 5%; */
+    }
+
+    #our-offer {
+        height: 400px;
+        background-color: #d6f3e0;
+    }
+
+    #schedule {
+        /* float:right; */
+        margin-right: 5%;
     }
 }
