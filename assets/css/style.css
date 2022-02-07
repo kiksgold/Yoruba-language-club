@@ -130,7 +130,7 @@ nav {
 
 .form-section {
     clear: left;
-    background: url(../images/Signup.jpeg) no-repeat center center;
+    background: url('../images/signup.jpeg') no-repeat center center;
     width: 100%;
     height: 900px;
     background-size: contain;
