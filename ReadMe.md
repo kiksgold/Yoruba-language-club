@@ -39,7 +39,9 @@ Our website is targeted at young parents, guardians who would like their kids to
     <li> The navigation tells the user the name of the club and website and makes the differnt pages easy to find.
     <li> Users can easily navigate back to the main page from the About us page and sign up page.
     </ul> 
-    
+
+![Image Here](./docs/features/navigation.png)
+
 <li> The Header
     <ul>
     <li> The header shows the name of the club using a very dark shade of lemon color.
@@ -47,25 +49,56 @@ Our website is targeted at young parents, guardians who would like their kids to
     <li> It also features a provoking thought on sustaing the yoruba club which also has an embedded link to the About us page.
     <li> The section provides users with clear information about what the site is and who the club is for.
     </ul>
-<li> Social media links
-    <ul> 
-    <li> This section has the social media icons, so users can find more information about the yoruba club on facebook, instagram, twitter and youtube.
-    <li> The icons when click on takes the user to the respective url.
-    <li> It gives the users ability to find and contact the club if they need to.
-    </ul>
+
+![Image Here](./docs/features/header.png)
+
 <li> The About us
     <ul> 
     <li> The About us section gives details about what the club offers, their members and the club's schedule.
     <li> This section shows the user the important information they need to know about the club.
     </ul>
+
+![Image Here](./docs/features/aboutusinfo.png)    
+
 <li> The Sign up Form
     <ul>
     <li> it allows users to enroll and join our club
     </ul>
 </ul>
 
+![Image Here](./docs/features/signupform.png)
 
-## Wireframes
+<li> Social media links
+    <ul> 
+    <li> This section has the social media icons, so users can find more information about the yoruba club on facebook, instagram, twitter and youtube.
+    <li> The icons when click on takes the user to the respective url.
+    <li> It gives the users ability to find and contact the club if they need to.
+    </ul>
+
+![Image Here](./docs/features/socialnetworks.png)
+
+## Testing
+
+
+## Validation
+
+
+## Technology Used
+<ul>
+<li> Balsamiq Wireframes: this was used to originate the idea, the mainframes for this project to have a better picture of the end project.</li>
+<li> HTML: we used this to build all the webpage for this website. </li>
+<li> CSS: this was used to style our various pages. </li>
+<li> Gitpod: is an online IDE for GitHub and GitLab that launches ready-to-code dev environments for any project with a single click. www.gitpod.io www.gitpod.io </li>
+<li> Github: provides hosting for software development version control using Git. www.github.com </li>
+</ul>
+
+## Credit
+<ul>
+<li> The Love Running Project</li>
+<li> Fontawesome</li>
+<li> W3schools https://www.w3schools.com/howto/ </li>
+<li> adobe
+</ul>
 
 
 
