@@ -338,6 +338,10 @@ footer{
         margin-left: auto;
         margin-right: auto;
     }
+
+    #schedule {
+        margin-right: 15%;
+    }
 }
 /* For Mobile phones */
 
@@ -363,6 +367,17 @@ footer{
     #schedule {
         float:right;
         margin-right: 5%;
+    }
+
+    .form-section {
+        height: 650px;
+    }
+
+    .signup-form {
+        position: absolute;
+        right: 0;
+        padding: 10px;
+        bottom: 300px;
     }
 
 }
