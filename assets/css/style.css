@@ -85,10 +85,12 @@ nav {
     width: 350px;
     height: 100px;
 
-    background-color: rgb(136, 136, 17, .7);
+    background-color: rgba(167, 167, 102, 0.7);
+/* 
+    background-color: rgb(136, 136, 17, .7); */
 
     bottom: 150px;
-    left: 150px;
+    left: 100px;
 
     position: absolute;
 
@@ -111,17 +113,107 @@ nav {
 /* brief intro with the paragraph */
 
 .brief-intro {
-    background-color: rgb(200, 229, 240);
+    /* background-color: rgb(200, 229, 240); */
+    background-color: #d6f3e0;
     text-align: center;
     font-family: Oswald, sans-serif;
     font-size: 200%;
-    height: 300px;
+    height: 280px;
 }
 
 .brief-intro p {
     color: red;
     text-align: center;
     padding: 2.5%;
+}
+
+
+/* About Us Pages */
+
+#aboutus-image {
+    padding-top: 10%;
+    height: 600px;
+    width: 100%;
+    background: url('../images/aboutus.jpeg') no-repeat; 
+    background-position: center;
+    background-size: cover;
+}
+
+#aboutus {
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+
+#our-offer > h2 {
+    text-align: center;
+    margin: 5px;
+    font-size: 2.5em;
+}
+
+#our-offer > p {
+    text-align: center;
+    /* margin: 20px; */
+    font-size: 1.5em;
+    font-family: serif;
+}
+
+#our-offer {
+    height: 300px;
+    background-color: #d6f3e0;
+    padding: 2% 
+}
+
+#offer {
+    float: left;
+    padding-top: 20px;
+    width: 35%;
+    margin-left: 10%;
+    line-height: 25px; 
+}
+
+#offer .offering {
+    padding-top: 10px;
+    font-family: serif;
+}
+
+#offer p{
+    text-align: justify;
+    padding: 5%;
+    text-decoration: underline overline wavy #f16c6b;
+    font-family: serif;
+    font-size: 1em;
+}
+
+#schedule {
+    float:right;
+    padding-top: 20px;
+    margin-right: 25%;
+    line-height: 25px;
+}
+
+.table {
+    padding-top: 10px;
+    font-family: serif;
+    width: 100%;
+}
+
+th, td {
+    border-bottom: 1px solid #0d2b17;
+    text-align: left;
+    padding: 2px;
+}
+
+#our-offer h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    bottom: underline;
+    text-decoration: underline;
+    text-decoration-color: #0d2b17;
+    text-decoration-style: solid;
+    /* font-size: 1.5em; */
+    /* font-weight: bold; */
 }
 
 
@@ -185,86 +277,6 @@ nav {
 
 
 
-/* About Us Pages */
-
-#aboutus-image {
-    padding-top: 10%;
-    height: 600px;
-    width: 100%;
-    background: url('../images/aboutus.jpeg') no-repeat; 
-    background-position: center;
-    background-size: cover;
-}
-
-#aboutus {
-        height: 600px;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-    }
-
-#our-offer > h2 {
-    text-align: center;
-    margin: 20px;
-    font-size: 2.5em;
-}
-
-#our-offer {
-    height: 300px;
-    background-color: #d6f3e0;
-    padding: 2% 
-}
-
-#offer {
-    float: left;
-    padding-top: 20px;
-    width: 35%;
-    margin-left: 10%;
-    line-height: 25px; 
-}
-
-#offer .offering {
-    padding-top: 10px;
-    font-family: serif;
-}
-
-#offer p{
-    text-align: justify;
-    padding: 5%;
-    text-decoration: underline overline wavy #f16c6b;
-    font-family: serif;
-    font-size: 1em;
-}
-
-#schedule {
-    float:right;
-    padding-top: 20px;
-    margin-right: 25%;
-    line-height: 25px;
-}
-
-.table {
-    padding-top: 10px;
-    font-family: serif;
-    width: 100%;
-}
-
-th, td {
-    border-bottom: 1px solid #0d2b17;
-    text-align: left;
-    padding: 2px;
-}
-
-#our-offer h3 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-    bottom: underline;
-    text-decoration: underline;
-    text-decoration-color: #0d2b17;
-    text-decoration-style: solid;
-    /* font-size: 1.5em; */
-    /* font-weight: bold; */
-}
 
 
 
