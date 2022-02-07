@@ -333,6 +333,12 @@ footer{
 /* For Mobile devices on Home Page*/
 @media screen and (min-width: 390px) and (max-width:480px) {
     
+    #menu li {
+        margin-left: 15px;
+        
+    }
+
+
     #cover-text {
         left: 10px;
         padding-top: 12%;
