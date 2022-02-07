@@ -220,9 +220,7 @@ nav {
     padding-top: 20px;
     width: 35%;
     margin-left: 10%;
-    line-height: 25px;
-    
-    
+    line-height: 25px; 
 }
 
 #offer .offering {
@@ -352,6 +350,33 @@ footer{
         width: 300px;
         height: 100px;
     }
+
+    #our-offer {
+        height: 600px;
+        background-color: #d6f3e0;
+        /* padding: 2%  */  
+    }
+
+    #offer {
+        margin-left: 10%;
+        /* float: left;
+        padding-top: 20px;
+        width: 35%;
+        
+        line-height: 25px;  */
+    }
+
+    #schedule {
+        float:right;
+        margin-right: 5%;
+        /* float:right;
+        padding-top: 20px;
+        margin-right: 25%;
+        line-height: 25px; */
+    }
+   
+
+
 }
 
 /* For ipads and tablets */
