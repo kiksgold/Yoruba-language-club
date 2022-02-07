@@ -183,7 +183,7 @@ nav {
 #offer p{
     text-align: justify;
     padding: 5%;
-    text-decoration: underline overline wavy #f16c6b;
+    /* text-decoration: underline overline wavy #f16c6b; */
     font-family: serif;
     font-size: 1em;
 }
@@ -330,92 +330,67 @@ footer{
 
 
 /* Media queries */
+/* For Mobile devices on Home Page*/
 @media screen and (min-width: 390px) and (max-width:480px) {
+    
     #cover-text {
         left: 10px;
         padding-top: 12%;
         font-size: 95%;
     }  
-    .brief-intro {
 
+    .brief-intro {
         font-size: 150%;
     }
 
-}
 
+    /* For Mobile devices on About us Page*/
 
-
-
-
-
-
-
-
-/* Media queries */
-/* For larger screen  */
-/* @media screen and (max-width: 1500px) {
-    #main-outer {
-        float: center;
-    }
-    .center {
-        display: block;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #schedule {
-        margin-right: 15%;
-    }
-}
-/* For Mobile phones */
-
-/* 
-@media screen and (min-width: 390px) and (max-width: 480px) {
-    #main-outer {
-        float: center;
-    } 
-
-    #cover-text {
-        width: 300px;
-        height: 300px;
-    }
-
-    .brief-intro {
-        height: 600px;
+    #our-offer > h2 {
+        text-align: center;
+        margin: 5px;
+        font-size: 150%;
     }
 
     #our-offer {
-        height: 600px;
-        background-color: #d6f3e0;
+        height:800px;
+    }
+
+    #our-offer > p {
+       font-size: 120%; 
+       padding-top: 10%;
     }
 
     #offer {
-        margin-left: 10%;
+        margin-left: 30%;
     }
 
     #schedule {
-        float:right;
-        margin-right: 5%;
+        margin-right: 30%;
     }
 
+    #offer .offering {
+        width: 100%;
+    }
+
+
+    /* For Mobile devices on Sign Up Page*/
+
     .form-section {
-        height: 650px;
+        background-size: cover;
     }
 
     .signup-form {
-        position: absolute;
-        right: 0;
-        padding: 10px;
-        bottom: 300px;
+        margin: 500px 0 0 0;
+        right: 5%;
     }
 
-} */
+}
 
 /* For ipads and tablets */
 
-
 @media screen and (max-width: 768px) {
+    
     #main-outer {
         float: center;
     }
@@ -426,7 +401,6 @@ footer{
         padding: 5%;
         /* position: relative; */
     }
-
 
     .brief-intro {
         height:250px;
@@ -454,4 +428,25 @@ footer{
         padding: 10px;
         bottom: 300px;
     }
-}  
+
+}
+
+
+/* For larger screen  */
+@media screen and (max-width: 1500px) {
+    
+    #main-outer {
+        float: center;
+    }
+    .center {
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #schedule {
+        margin-right: 15%;
+    }
+}
+
