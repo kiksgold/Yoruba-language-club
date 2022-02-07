@@ -39,6 +39,7 @@ Our website is targeted at young parents, guardians who would like their kids to
     <li> The navigation tells the user the name of the club and website and makes the differnt pages easy to find.
     <li> Users can easily navigate back to the main page from the About us page and sign up page.
     </ul> 
+    
 <li> The Header
     <ul>
     <li> The header shows the name of the club using a very dark shade of lemon color.
