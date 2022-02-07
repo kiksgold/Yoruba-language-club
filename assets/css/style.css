@@ -414,4 +414,12 @@ footer{
         /* float:right; */
         margin-right: 5%;
     }
+
+    .signup-form {
+        bottom: 200px;
+        /* position: absolute;
+        right: 0;
+        padding: 10px;
+        bottom: 300px; */
+    }
 }
