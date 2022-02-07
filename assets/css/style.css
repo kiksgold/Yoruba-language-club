@@ -128,7 +128,9 @@ nav {
 }
 
 
-/* About Us Pages */
+
+
+/* About Us Page */
 
 #aboutus-image {
     padding-top: 10%;
@@ -215,6 +217,8 @@ th, td {
     /* font-size: 1.5em; */
     /* font-weight: bold; */
 }
+
+
 
 
 
@@ -325,10 +329,19 @@ footer{
 
 
 
+/* Media queries */
+@media screen and (min-width: 390px) and (max-width:480px) {
+    #cover-text {
+        left: 10px;
+        padding-top: 12%;
+        font-size: 95%;
+    }  
+    .brief-intro {
 
+        font-size: 150%;
+    }
 
-
-
+}
 
 
 
@@ -340,7 +353,7 @@ footer{
 
 /* Media queries */
 /* For larger screen  */
-@media screen and (max-width: 1500px) {
+/* @media screen and (max-width: 1500px) {
     #main-outer {
         float: center;
     }
@@ -357,10 +370,11 @@ footer{
 }
 /* For Mobile phones */
 
+/* 
 @media screen and (min-width: 390px) and (max-width: 480px) {
-    /* #main-outer {
+    #main-outer {
         float: center;
-    } */
+    } 
 
     #cover-text {
         width: 300px;
@@ -396,9 +410,10 @@ footer{
         bottom: 300px;
     }
 
-}
+} */
 
 /* For ipads and tablets */
+
 
 @media screen and (max-width: 768px) {
     #main-outer {
@@ -410,7 +425,8 @@ footer{
         height: 70px;
         padding: 5%;
         /* position: relative; */
-    } 
+    }
+
 
     .brief-intro {
         height:250px;
@@ -426,16 +442,16 @@ footer{
         background-color: #d6f3e0;
     }
 
-    #schedule {
+    #schedule { 
         /* float:right; */
         margin-right: 5%;
     }
 
     .signup-form {
         bottom: 200px;
-        /* position: absolute;
+        position: absolute;
         right: 0;
         padding: 10px;
-        bottom: 300px; */
+        bottom: 300px;
     }
-}
+}  
