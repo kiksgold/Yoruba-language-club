@@ -58,13 +58,13 @@ nav {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Main image and cover text */
+/* Hero image and cover text */
 
-#main-image {
+#hero-image {
     padding-top: 10%;
     height: 600px;
     width: 100%;
-    background: url('../images/main_image.jpeg') no-repeat; 
+    background: url('../images/hero_image.jpeg') no-repeat; 
     background-position: center;
 }
 
@@ -345,14 +345,18 @@ footer{
 }
 /* For Mobile phones */
 
-@media screen and (max-width: 480px) {
-    #main-outer {
+@media screen and (min-width: 390px) and (max-width: 480px) {
+    /* #main-outer {
         float: center;
-    }
+    } */
 
     #cover-text {
         width: 300px;
-        height: 100px;
+        height: 300px;
+    }
+
+    .brief-intro {
+        height: 600px;
     }
 
     #our-offer {
