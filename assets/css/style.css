@@ -9,7 +9,6 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 600;
     color: #3a3a3a;
-    font-size: 900;
 }
 
 /* headings and logo */
@@ -210,8 +209,6 @@ th, td {
 #our-offer h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
-    bottom: underline;
-    text-decoration: underline;
     text-decoration-color: #0d2b17;
     text-decoration-style: solid;
     /* font-size: 1.5em; */
@@ -253,7 +250,6 @@ th, td {
     width: 100%;
     height: 25px;
     margin: 5px 10px 5px 0;
-    font-weight: 600px;
     
 }
 
@@ -397,9 +393,7 @@ footer{
 
 @media screen and (max-width: 768px) {
     
-    #main-outer {
-        float: center;
-    }
+  
 
     #cover-text {
         width: 350px;
@@ -441,9 +435,7 @@ footer{
 /* For larger screen  */
 @media screen and (max-width: 1500px) {
     
-    #main-outer {
-        float: center;
-    }
+    
     .center {
         display: block;
         width: 50%;

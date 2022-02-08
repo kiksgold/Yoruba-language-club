@@ -6,6 +6,8 @@ This project is focused on on a website that teaches kids between the ages of 3-
 
 <p> The idea behind the project is to be able to sustain the yoruba language for generations to come. </p>
 
+![Image Here](./docs/features/amiresponsive.png)
+
 ## Our Main goal:
 <ul>
 <li> to sustain the indigenous yoruba langauage
@@ -13,13 +15,6 @@ This project is focused on on a website that teaches kids between the ages of 3-
 <li> to be accessible to our target audience in their various locations.
 </ul>
 
-## Wireframes
-![Image Here](./docs/wireframes/homepage.png)
-![Image Here](./docs/wireframes/aboutus.png)
-![Image Here](./docs/wireframes/signup.png)
-![Image Here](./docs/wireframes/mobile_home.png)
-![Image Here](./docs/wireframes/mobile_aboutus.png)
-![Image Here](./docs/wireframes/mobile_signup.png)
 ### Content Strategy
 <ul>
 <li> user-friendly
@@ -29,6 +24,14 @@ This project is focused on on a website that teaches kids between the ages of 3-
 
 ### Target Audience:
 Our website is targeted at young parents, guardians who would like their kids to learn the yoruba language.
+
+## Wireframes
+![Image Here](./docs/wireframes/homepage.png)
+![Image Here](./docs/wireframes/aboutus.png)
+![Image Here](./docs/wireframes/signup.png)
+![Image Here](./docs/wireframes/mobile_home.png)
+![Image Here](./docs/wireframes/mobile_aboutus.png)
+![Image Here](./docs/wireframes/mobile_signup.png)
 
 ## Features
 <ul>
@@ -78,7 +81,12 @@ Our website is targeted at young parents, guardians who would like their kids to
 ![Image Here](./docs/features/socialnetworks.png)
 
 ## Testing
-
+<ul>
+<li> The page works in different browser; Chrome, Safari, Firefox including mobile device. </li>
+<li> I confirm that this project is responsive, looks good and functions on all standard screen sizes using devtools device toolbar. </li>
+<li> I have tested that the navigation, header, about us, sign up text are all readable and easy to understand. </li>
+<li> The sign up form works, it requires entries in every field and will only accept an email in the email field, the submit button also works. </li>
+</ul>
 
 ## Validation
 
@@ -94,11 +102,16 @@ Our website is targeted at young parents, guardians who would like their kids to
 
 ## Credit
 <ul>
+<li> ReadMe template from The coding club. </li>
 <li> The Love Running Project</li>
 <li> Fontawesome</li>
 <li> W3schools https://www.w3schools.com/howto/ </li>
 <li> adobe
 </ul>
+
+## Acknowledgment 
+<ul>
+A special thanks to my hubby for his all round support in making sure this project was a success. Thanks for all the cup of Teas.
 
 
 
