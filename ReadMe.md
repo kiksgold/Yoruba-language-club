@@ -24,8 +24,15 @@ This project is focused on on a website that teaches kids between the ages of 3-
 ### Target Audience:
 Our website is targeted at young parents, guardians who would like their kids to learn the yoruba language.
 
-#### User Stories:
-<p> The home page shows an image of kids studying, it gives potential parents of our age-groups and what we are all about including a link to our social media pages and navigation menu. Our about us pages has an image os kids studying, what we offer and our schedule, there is also a list of our social media pages and ofcourse our navigaetion menu for easy navigation of our pages. Our sign up page, is a call to action for parents to enrol in our program. </p>
+#### User Story:
+<ul>
+<li> The home page shows an image of kids studying, this provides potential users that the language club is for kids. </li>
+<li> users are able to navigate our through our webpages. </li>
+<li> Users get more info about our club days. </li>
+<li> Users get more info about what we offer. </li>
+<li> There is list of our social media icons that takes users to our various social media pages. </li>
+<li> Our sign up page, is a call to action for users to enrol their kids in our club. </li>
+</ul>
 
 ## Wireframes
 ![Image Here](./docs/wireframes/homepage.png)
@@ -84,16 +91,31 @@ Our website is targeted at young parents, guardians who would like their kids to
 
 ## Testing
 <ul>
-<li> The page works in different browser; Chrome, Safari, Firefox including mobile device. </li>
+<li> The page works in different browser; Chrome, Safari, and my mobile device (iPhone11). </li>
 <li> I confirm that this project is responsive, looks good and functions on all standard screen sizes using devtools device toolbar. </li>
+<li> I have used the http://ami.responsivedesign.is/ website to check the render on different sceens. </li>
 <li> I have tested that the navigation, header, about us, sign up text are all readable and easy to understand. </li>
 <li> The sign up form works, it requires entries in every field and will only accept an email in the email field, the submit button also works. </li>
 </ul>
 
 ## Challenges
+The major challenge that I experienced was media screen responsiveness.
+<ul>
+<li> I was able to get support from Tutor me and my mentor </li>
+<li> I also used chrome dev tools to carefully choose devices to work on my 3pages and their alignment. </li>
+</ul>
 
 ## Validation
-
+<ul>
+<li>HTML </li>
+<ul>
+<li> No errors were returned when passing through the official W3C validator. </li>
+</ul>
+<li>CSS </li>
+<ul>
+<li> No errors were returned when passing through the official W3C validator. </li>
+</ul>
+</ul>
 
 ## Technology Used
 <ul>
@@ -102,17 +124,27 @@ Our website is targeted at young parents, guardians who would like their kids to
 <li> CSS: this was used to style our various pages. </li>
 <li> Gitpod: is an online IDE for GitHub and GitLab that launches ready-to-code dev environments for any project with a single click. www.gitpod.io www.gitpod.io </li>
 <li> Github: provides hosting for software development version control using Git. www.github.com </li>
+<li> Chrome Dev Tool: this was used extensively to test debug my code. </li>
+<li> W3C Markup validation service: it was used to test my html and css codes for validation. https://validator.w3.org/ </li>
 </ul>
 
 ## Deployment
+The site was deployed to GitHub Page. The following steps were taken for deployment:
+<ul>
+<li> I created a repository on mygithub </li>
+<li> I have saved, commited and pushed every changes to github.</li>
+<li>In the github repository I navigated to the settings tab </li> 
+<li> I used the drop-down menu to select master branch as a publishing source and saved it. </li>
+<li> Refreshed the github page, and a link was provided to the completed website. </li>
+</ul>
 
 ## Credit
 <ul>
 <li> ReadMe template from The coding club. </li>
 <li> The Love Running Project</li>
-<li> Fontawesome</li>
-<li> W3schools https://www.w3schools.com/howto/ </li>
-<li> adobe
+<li> Fontawesome </li>
+<li> W3schools for my code referencing https://www.w3schools.com/howto/ </li>
+<li> Adobe Stock for all my images https://stock.adobe.com/ng/Libraries </li>
 </ul>
 
 ## Acknowledgment 

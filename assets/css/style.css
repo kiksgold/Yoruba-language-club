@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
-/* Margin and body color inspired from Love Running Project */
+/* Margin, body color and nav inspired from Love Running Project */
 
 * {
     margin: 0;
@@ -84,36 +84,24 @@ nav {
 #cover-text {
     width: 350px;
     height: 100px;
-
     background-color: rgba(167, 167, 102, 0.7);
-
-/* background-color: rgb(136, 136, 17, .7); */
-
     bottom: 150px;
     left: 100px;
-
     position: absolute;
-
     font-size: 130%;
     letter-spacing: 2px;
     font-family: Oswald;
-
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 10px; 
-
     text-align: center;
-    /* word-wrap: normal; */
-
     border-radius: 75%; 
     border-style:double;
-
 }
 
 /* brief intro with the paragraph */
 
 .brief-intro {
-    /* background-color: rgb(200, 229, 240); */
     background-color: #d6f3e0;
     text-align: center;
     font-family: Oswald, sans-serif;
@@ -126,9 +114,6 @@ nav {
     text-align: center;
     padding: 2.5%;
 }
-
-
-
 
 /* About Us Page */
 
@@ -156,7 +141,6 @@ nav {
 
 #our-offer > p {
     text-align: center;
-    /* margin: 20px; */
     font-size: 1.5em;
     font-family: serif;
 }
@@ -179,14 +163,6 @@ nav {
     padding-top: 10px;
     font-family: serif;
 }
-
-/* #offer p{
-    text-align: justify;
-    padding: 5%;
-    text-decoration: underline overline wavy #f16c6b;
-    font-family: serif;
-    font-size: 1em;
-}  */
 
 #schedule {
     float:right;
@@ -212,13 +188,7 @@ th, td {
     font-style: italic;
     text-decoration-color: #0d2b17;
     text-decoration-style: solid;
-    /* font-size: 1.5em; */
-    /* font-weight: bold; */
 }
-
-
-
-
 
 /* Sign up page */
 
@@ -246,12 +216,10 @@ th, td {
 }
 
 .text-input {
-    /* background: transparent; */
     color: rgb(3, 3, 31);
     width: 100%;
     height: 25px;
-    margin: 5px 10px 5px 0;
-    
+    margin: 5px 10px 5px 0;  
 }
 
 .text-input:hover {
@@ -275,12 +243,6 @@ th, td {
     font-size: 100%;
 }
 
-
-
-
-
-
-
 /* Footer */
 
 footer{
@@ -289,7 +251,6 @@ footer{
 
 .social-networks{
     text-align: center;
-
 }
 
 .social-networks li {
@@ -322,19 +283,13 @@ footer{
     color: white;
 }
 
-
-
-
-
 /* Media queries */
 /* For Mobile devices on Home Page*/
 @media screen and (min-width: 390px) and (max-width:480px) {
     
     #menu li {
-        margin-left: 15px;
-        
+        margin-left: 15px; 
     }
-
 
     #cover-text {
         left: 10px;
@@ -345,9 +300,7 @@ footer{
     .brief-intro {
         font-size: 150%;
     }
-
-
-    /* For Mobile devices on About us Page*/
+/* For Mobile devices on About us Page*/
 
     #our-offer > h2 {
         text-align: center;
@@ -372,38 +325,6 @@ footer{
         background-color: #d6f3e0 ;
         height: 800px;
     }
-
-
-
-
-    /* #our-offer > h2 {
-        text-align: center;
-        margin: 5px;
-        font-size: 150%;
-    }
-
-    #our-offer {
-        height:800px;
-    }
-
-    #our-offer > p {
-       font-size: 120%; 
-       padding-top: 10%;
-    }
-
-    #offer {
-        margin-left: 30%;
-    }
-
-    #schedule {
-        margin-right: 30%;
-    }
-
-    #offer .offering {
-        width: 100%;
-    }
- */
-
     /* For Mobile devices on Sign Up Page*/
 
     .form-section {
@@ -415,20 +336,15 @@ footer{
         margin: 500px 0 0 0;
         right: 5%;
     }
-
 }
 
 /* For ipads and tablets */
-
 @media screen and (min-width: 768px) and (max-width: 820px) {
     
-  
-
     #cover-text {
         width: 350px;
         height: 70px;
         padding: 5%;
-        /* position: relative; */
     }
 
     .brief-intro {
@@ -438,8 +354,8 @@ footer{
 
     .brief-intro p {
         text-align: center;
-        /* padding: 5%;  */
     }
+/* For ipads and tablets on ipad and tablets about us */
 
     #our-offer {
         height: 400px;
@@ -449,10 +365,11 @@ footer{
     #our-offer > h2 {
         font-size: 2em;
     }
-    #schedule { 
-        /* float:right; */
+
+    #schedule {    
         margin-right: 5%;
     }
+/* For ipads and tablets on ipad and tablets sign up */
 
     .signup-form {
         bottom: 200px;
@@ -465,16 +382,11 @@ footer{
     .form-section {
         background-size: cover;
     }
-
-    
-
 }
-
 
 /* For larger screen  */
 @media screen and (max-width: 1500px) {
-    
-    
+
     .center {
         display: block;
         width: 50%;
