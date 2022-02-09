@@ -77,7 +77,6 @@ Our website is targeted at young parents, guardians who would like their kids to
     <ul>
     <li> it allows users to enroll and join our club
     </ul>
-</ul>
 
 ![Image Here](./docs/features/signupform.png)
 
@@ -89,6 +88,7 @@ Our website is targeted at young parents, guardians who would like their kids to
     </ul>
 
 ![Image Here](./docs/features/socialnetworks.png)
+</ul>
 
 ## Testing
 <ul>
