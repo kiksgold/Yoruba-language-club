@@ -120,9 +120,9 @@ The major challenge that I experienced was media screen responsiveness.
 <ul>
 <li> I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools. </li>
 </ul>
-</ul>
-![Image Here](./docs/features/lighthouse.png) 
 
+![Image Here](./docs/features/lighthouse.png)
+</ul>
 
 ## Technology Used
 <ul>
