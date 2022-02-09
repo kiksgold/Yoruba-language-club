@@ -104,6 +104,8 @@ Our website is targeted at young parents, guardians who would like their kids to
 <li> Github: provides hosting for software development version control using Git. www.github.com </li>
 </ul>
 
+## Deployment
+
 ## Credit
 <ul>
 <li> ReadMe template from The coding club. </li>
