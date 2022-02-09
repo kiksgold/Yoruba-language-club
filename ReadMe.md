@@ -157,8 +157,3 @@ The site was deployed to GitHub Page. The following steps were taken for deploym
 ## Acknowledgment 
 <ul>
 A special thanks to my hubby for his all round support in making sure this project was a success. Thanks for all the cup of Teas.
-
-
-
-
-
