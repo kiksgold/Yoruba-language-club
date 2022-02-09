@@ -3,7 +3,6 @@
 This project is focused on on a website that teaches kids between the ages of 3-15years on how to read and speak the indigenous Yoruba Language. Our website is built for parents, guardians, children and schools that are interested in sustaining the indigenous language.
 
 <p> The users will find all relevant information about the Yoruba Language club; our offerings, meeting times, and a sign up form. </p>
-
 <p> The idea behind the project is to be able to sustain the yoruba language for generations to come. </p>
 
 ![Image Here](./docs/features/amiresponsive.png)
@@ -24,6 +23,9 @@ This project is focused on on a website that teaches kids between the ages of 3-
 
 ### Target Audience:
 Our website is targeted at young parents, guardians who would like their kids to learn the yoruba language.
+
+#### User Stories:
+<p> The home page shows an image of kids studying, it gives potential parents of our age-groups and what we are all about including a link to our social media pages and navigation menu. Our about us pages has an image os kids studying, what we offer and our schedule, there is also a list of our social media pages and ofcourse our navigaetion menu for easy navigation of our pages. Our sign up page, is a call to action for parents to enrol in our program. </p>
 
 ## Wireframes
 ![Image Here](./docs/wireframes/homepage.png)
@@ -87,6 +89,8 @@ Our website is targeted at young parents, guardians who would like their kids to
 <li> I have tested that the navigation, header, about us, sign up text are all readable and easy to understand. </li>
 <li> The sign up form works, it requires entries in every field and will only accept an email in the email field, the submit button also works. </li>
 </ul>
+
+## Challenges
 
 ## Validation
 
