@@ -4,6 +4,7 @@ This project is focused on on a website that teaches kids between the ages of 3-
 
 <p> The users will find all relevant information about the Yoruba Language club; our offerings, meeting times, and a sign up form. </p>
 <p> The idea behind the project is to be able to sustain the yoruba language for generations to come. </p>
+https://kiksgold.github.io/Yoruba-language-club/
 
 ![Image Here](./docs/features/amiresponsive.png)
 
@@ -115,7 +116,13 @@ The major challenge that I experienced was media screen responsiveness.
 <ul>
 <li> No errors were returned when passing through the official W3C validator. </li>
 </ul>
+<li>Accessibilty</li>
+<ul>
+<li> I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools. </li>
 </ul>
+</ul>
+![Image Here](./docs/features/lighthouse.png) 
+
 
 ## Technology Used
 <ul>
@@ -135,7 +142,7 @@ The site was deployed to GitHub Page. The following steps were taken for deploym
 <li> I have saved, commited and pushed every changes to github.</li>
 <li>In the github repository I navigated to the settings tab </li> 
 <li> I used the drop-down menu to select master branch as a publishing source and saved it. </li>
-<li> Refreshed the github page, and a link was provided to the completed website. </li>
+<li> Refreshed the github page, and a link was provided to the completed website https://kiksgold.github.io/Yoruba-language-club/ </li>
 </ul>
 
 ## Credit
